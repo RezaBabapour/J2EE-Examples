@@ -19,5 +19,27 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///mnt/2264345D643435BF/lib/JAVA/mysql-connector-java-8.0.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///mnt/2264345D643435BF/lib/JAVA/java_ee_sdk-8u1-web/glassfish5/glassfish/modules" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///mnt/2264345D643435BF/lib/JAVA/java_ee_sdk-8u1-web/glassfish5/glassfish/modules" />
+        </SOURCES>
+        <jarDirectory url="file:///mnt/2264345D643435BF/lib/JAVA/java_ee_sdk-8u1-web/glassfish5/glassfish/modules" recursive="false" />
+        <jarDirectory url="file:///mnt/2264345D643435BF/lib/JAVA/java_ee_sdk-8u1-web/glassfish5/glassfish/modules" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

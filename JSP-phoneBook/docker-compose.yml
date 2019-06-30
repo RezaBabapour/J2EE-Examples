@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0.16
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: PhoneBook
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+    ports:
+      - "42333:3306"
+    expose:
+      - '3306'
+    volumes:
+      - /mnt/2264345D643435BF/volume/PhoneBook:/var/lib/mysql
